@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="0" result="Failed" label="Invalid" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.18.1.0" clr-version="8.0.7" start-time="2024-07-21 20:33:18Z" end-time="2024-07-21 20:33:18Z" duration="0.220285">
+  <command-line><![CDATA[/home/europa/.dotnet/tools/.store/nunit.consolerunner.netcore/3.18.1/nunit.consolerunner.netcore/3.18.1/tools/net6.0/any/nunit3-console.dll ./bin/Debug/net8.0/Tests.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1000" name="Tests.dll" fullname="/home/europa/Workspace/net_hello_world/Tests/bin/Debug/net8.0/Tests.dll" runstate="NotRunnable" testcasecount="0" result="Failed" label="Invalid" site="SetUp" start-time="2024-07-21T20:33:18.8413066Z" end-time="2024-07-21T20:33:18.8695870Z" duration="0.028340" total="0" passed="0" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.14.0.0" clr-version="8.0.7" os-version="AlmaLinux 9.3 (Shamrock Pampas Cat)" platform="Unix" cwd="/home/europa/Workspace/net_hello_world/Tests" machine-name="localhost" user="europa" user-domain="localhost" culture="en-GB" uiculture="en-GB" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="/home/europa/Workspace/net_hello_world/Tests" />
+      <setting name="NumberOfTestWorkers" value="2" />
+    </settings>
+    <properties>
+      <property name="_SKIPREASON" value="Unable to load one or more of the requested types.&#xA;Could not load file or assembly 'Microsoft.AspNetCore.Hosting.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'. The system cannot find the file specified.&#xA;&#xA;  ----&gt; Could not load file or assembly 'Microsoft.AspNetCore.Hosting.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'. The system cannot find the file specified.&#xA;" />
+    </properties>
+    <failure>
+      <message><![CDATA[Unable to load one or more of the requested types.
+Could not load file or assembly 'Microsoft.AspNetCore.Hosting.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'. The system cannot find the file specified.
+
+  ----> Could not load file or assembly 'Microsoft.AspNetCore.Hosting.Abstractions, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'. The system cannot find the file specified.
+]]></message>
+    </failure>
+  </test-suite>
+</test-run>
